@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Permissions-Policy" content="interest-cohort=()">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400&display=swap" rel="stylesheet">
+    <title>Encryptor Challenge 01 - Yeferson Diaz</title>
+</head>
+<body>
+    <header>
+        <img class="logo" src="img/logo.svg" alt="Logo">
+    </header>
+    <main>
+        <section class="section1">
+            <div class="text-box-container">
+                <textarea placeholder="Enter the text here" class="text-box"></textarea>
+            </div>
+            <div class="alert">
+                <img src="img/alert.svg" alt="Alert">
+                <p>Solamente letras minusculas sin acentos</p>
+            </div>
+            <div class="button-container">
+                <input type="button" class="btn-encrypt" value="Encrypt">
+                <input type="button" class="btn-decrypt" value="Decrypt">
+            </div>
+        </section>
+        <section class="section2">
+            <div class="person-container">
+                <img src="img/person.svg" alt="Person">
+            </div>
+            <div class="paragraph-container">
+                <h3>No se encontró ningún texto a encriptar</h3>
+                <p>Ingresa el texto que quieres encriptar o desencriptar</p>
+            </div>
+            <div class="result-container">
+                <p class="result-text"></p>
+            </div>
+            <div class="copy-container">
+                <input type="button" class="btn-copy" value="Copy">
+            </div>
+        </section>
+    </main>
+    <script src="js/script.js"></script>
+</body>
+</html>
